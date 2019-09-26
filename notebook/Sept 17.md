@@ -19,7 +19,7 @@ There are two ways to get RTCM data to the rover C099-F9P:
 
 I’m following the setup on page 21 of the C099-F9P user guide (stream RTCM data to the rover over wifi).
 
-See `./imgs/img0.png` \<- I’m having trouble connecting to the board’s serial console with s-connect.
+See `./imgs/img0.png`: ![`./imgs/img0.png`](https://media.githubusercontent.com/media/gcc-ant-robot/gps-rtk/master/notebook/imgs/img0.png) \<- I’m having trouble connecting to the board’s serial console with s-connect.
 * Actually, I’m having this exact issue: [https://portal.u-blox.com/s/question/0D52p00008HKEEDCA5/cannot-get-the-odinw2-on-c099f9p-into-at-mode-using-scenter][3]
 > * Picking up here, I’ll follow the guide to update the firmware on thre board.
 
