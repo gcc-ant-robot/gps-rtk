@@ -1,0 +1,10 @@
+# Config changes format version 1.0
+# created by u-center version 19.08.01 at 14:27:35 on Thursday, 24 Oct 2019
+[del]
+[set]
+  RAM CFG-TMODE-MODE       1                    # write value 1 - SURVEY_IN        to item id 20030001 in layer 0
+  RAM CFG-TMODE-SVIN_MIN_DUR 0x3c                 # write value 60  0x3c             to item id 40030010 in layer 0
+  RAM CFG-TMODE-SVIN_ACC_LIMIT 0xc350               # write value 50000  0xc350        to item id 40030011 in layer 0
+Flash CFG-TMODE-MODE       1                    # write value 1 - SURVEY_IN        to item id 20030001 in layer 2
+Flash CFG-TMODE-SVIN_ACC_LIMIT 0xc350               # write value 50000  0xc350        to item id 40030011 in layer 2
+Flash CFG-TMODE-SVIN_MIN_DUR 0x3c                 # write value 60  0x3c             to item id 40030010 in layer 2
