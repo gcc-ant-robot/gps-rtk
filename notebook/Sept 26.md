@@ -1,4 +1,6 @@
 
+# Flashing a ODIN W2
+
 Today I will update the firmware on the second GPS unit.
 
 1. Once Again, see Section 7.2 instructions here: [https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-ODIN-W2-CSW\_UserGuide\_%28UBX-18055649%29.pdf][1]
