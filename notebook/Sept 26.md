@@ -3,9 +3,15 @@
 
 Today I will update the firmware on the second GPS unit.
 
+<<<<<<< HEAD
 1. Once Again, see Section 7.2 instructions here: [https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-ODIN-W2-CSW\_UserGuide\_%28UBX-18055649%29.pdf][2]
 2. Download latest u-blox connectivity software and related documentation here: [https://www.u-blox.com/en/product/odin-w2-series][3]
 3. Make sure that you have the stm32flash tool from here: [https://sourceforge.net/projects/stm32flash/][4]
+=======
+1. Once Again, see Section 7.2 instructions here: [https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-ODIN-W2-CSW\_UserGuide\_%28UBX-18055649%29.pdf][1]
+2. Download latest u-blox connectivity software and related documentation here: [https://www.u-blox.com/en/product/odin-w2-series][2]
+3. Make sure that you have the stm32flash tool from here: [https://sourceforge.net/projects/stm32flash/files/stm32flash-0.5-win64.zip/download][3]
+>>>>>>> 1098f8e7591c763e574b6fec8d746373ab59bd11
 4. Place the ODIN w2 in safeboot mode with jumper as detailed in the the Section 7.2 instructions.
 5. This part is not well documented in the instructions, I’ve copied the `stm32flash` tool into the same directory as the downloaded firmware.  See here: ￼![][image-1]. 
 6. Now open up a powershelgl prompt and go to the `ODIN-W26X-7` Directory.  For me, that is in Downloads:
@@ -85,9 +91,9 @@ Today I will update the firmware on the second GPS unit.
 * If you cannot connect in step 10 with the setting shown in **img8.png**, try connecting pressing the pink button in **img5.png**.  Then you should be able to connect with the settings in **img8.png** before continuing with step 10.
 * In my experience, after not being able to connect with the settings shown in **img8.png** during step 10, I attempted to connect with the settings shown in **img11.png** and those worked.  In this case, I continued with step 11 after connecting.
 
-[2]:	https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-ODIN-W2-CSW_UserGuide_%28UBX-18055649%29.pdf
-[3]:	https://www.u-blox.com/en/product/odin-w2-series
-[4]:	https://sourceforge.net/projects/stm32flash/
+[1]:	https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-ODIN-W2-CSW_UserGuide_%28UBX-18055649%29.pdf
+[2]:	https://www.u-blox.com/en/product/odin-w2-series
+[3]:	https://sourceforge.net/projects/stm32flash/files/stm32flash-0.5-win64.zip/download
 
 [image-1]:	https://media.githubusercontent.com/media/gcc-ant-robot/gps-rtk/master/notebook/imgs/img6.png
 [image-2]:	https://media.githubusercontent.com/media/gcc-ant-robot/gps-rtk/master/notebook/imgs/img7.png
